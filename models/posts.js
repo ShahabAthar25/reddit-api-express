@@ -11,7 +11,6 @@ const memberSchema = new mongoose.Schema({
     },
     image: {
         type: String,
-        require: true
     },
     datePosted: {
         type: Date,
